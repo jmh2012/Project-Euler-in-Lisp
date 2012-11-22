@@ -8,5 +8,7 @@
 		(+ n (natural (- n 1)))
 		(natural (- n 1)))))
 
-(defun sumunder(n)
+(defun euler-1 (n)
 	(natural (- n 1)))
+
+(euler-1 1000)

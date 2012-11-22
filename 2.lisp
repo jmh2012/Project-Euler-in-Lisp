@@ -7,7 +7,7 @@
 		1
 		(+ (fib (- n 1)) (fib (- n 2)))))
 
-(defun sumfib(n)
+(defun euler-2 (n)
 	(if (= n 1)
 		1
 		(if (= 0 (mod 2 (fib n)))
